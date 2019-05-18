@@ -2,7 +2,7 @@
   "name": "portal_noticias",
   "version": "1.0.0",
   "description": "Site de notícias",
-  "main": "noticias.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vinicarval/portal_noticias/issues"
   },
-  "homepage": "https://github.com/vinicarval/portal_noticias#readme"
+  "homepage": "https://github.com/vinicarval/portal_noticias#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
 }
